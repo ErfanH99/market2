@@ -39,21 +39,6 @@ function signupblur() {
     alert("You'r Account has been created.")
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function mouseoverimg(elm) {
     elm.src = "./files/s21-2.jpg"
 }
