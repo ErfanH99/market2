@@ -47,6 +47,9 @@ function mouseoutimg(elm) {
     elm.src = "./files/s21.jpg"
 }
 
+function onkickinput() {
+    alert("You'r Account has been created.")
+}
 
 
 
