@@ -2,10 +2,6 @@ function focusinput(){
     alert("Please Enter Your Username !")
 }
 
-function blurinput() {
-    alert("Are You Sure ?") 
-}
-
 function keyupinput(event) {
     if (event.keyCode != 8 && event.keyCode >= 65 && event.keyCode <= 90 || event.keyCode >= 32){
         document.getElementById('counter').innerHTML = eval(document.getElementById('counter').innerHTML) + 1
@@ -17,18 +13,22 @@ function keyupinput(event) {
 }
 
 function keydowninput() {
-    alert("keydown !!")
+    alert("use alpha numeric!!!")
 }
 
 function mouseover(elm){
-    document.getElementById('hoverme_txt').innerHTML="sign up for free"
-    elm.style.color="yellow"
+    document.getElementById('hoverme_txt').innerHTML="hello"
+    elm.style.color="navy"
     elm.style.borderRadius="20%"
 }
 function mouseout(elm){
-    document.getElementById('hoverme_txt').innerHTML = "hover me"
-    elm.style.color="navy"
+    document.getElementById('hoverme_txt').innerHTML = "bye"
+    elm.style.color="purple"
     elm.style.borderRadius="50%"
+}
+
+function blurinput() {
+    alert("Are You Sure ?")
 }
 
 function txtclickinput() {
